@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+  width: 500px;
+  text-align: center;
+  margin: 50px;
+}
+.enemy-hand{
+  width: 200px;
+  height: auto;
+}
+.hands-container{
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.image-wrapper{
+  border-radius: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+.my-hand{
+  width: 150px;
+  height: auto;
+}
+.image-wrapper:hover{
+  box-shadow: 2px 3px 3px rgb(0, 0, 0);
+}
